@@ -22,7 +22,7 @@ export default function AdminDashboard() {
   const fetchOrders = async () => {
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5000/api/orders');
+      const res = await fetch('https://teedee-k-s-delicacies.onrender.com/api/orders');
       const data = await res.json();
       
       if (data.success && Array.isArray(data.orders)) {
@@ -62,7 +62,7 @@ export default function AdminDashboard() {
 
   const updateOrderStatus = async (orderId, newStatus) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/orders/${orderId}`, {
+      const res = await fetch(`https://teedee-k-s-delicacies.onrender.com/api/orders/${orderId}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: newStatus }),

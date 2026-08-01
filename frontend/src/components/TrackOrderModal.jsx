@@ -19,7 +19,7 @@ export default function TrackOrderModal({ isOpen, onClose }) {
     setTrackedOrder(null);
 
     try {
-      const res = await fetch(`http://localhost:5000/api/orders/track/${searchId.trim()}`);
+      const res = await fetch(`https://teedee-k-s-delicacies.onrender.com/api/orders/track/${searchId.trim()}`);
       const data = await res.json();
 
       if (res.ok && data.success) {
