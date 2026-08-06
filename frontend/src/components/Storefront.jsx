@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import html2pdf from 'html2pdf.js';
 import CustomCakeModal from './CustomCakeModal';
 import TrackOrderModal from './TrackOrderModal';
+import Footer from './Footer';
 
 import chocolateImg from '../assets/chocolate.jpg'; 
 import diplomateImg from '../assets/diplomate.jpg';
@@ -680,6 +681,8 @@ Please send your payment details and notify me when my order status changes!`;
       {/* Modals */}
       <CustomCakeModal isOpen={isCakeModalOpen} onClose={() => setIsCakeModalOpen(false)} />
       <TrackOrderModal isOpen={isTrackModalOpen} onClose={() => setIsTrackModalOpen(false)} />
+
+      <Footer />
     </div>
   );
 }
