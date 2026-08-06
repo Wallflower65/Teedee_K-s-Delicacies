@@ -8,8 +8,8 @@ This platform bridges the gap between digital storefront ordering and real-time 
 
 ## Live Application & Demos
 
-* ** Live Production Storefront:** [https://teedeeks-delicacies.netlify.app/](https://teedeeks-delicacies.netlify.app/)
-* ** Live Backend API Service:** [https://teedee-k-s-delicacies.onrender.com](https://teedee-k-s-delicacies.onrender.com)
+*  Live Production Storefront: [https://teedeeks-delicacies.netlify.app/](https://teedeeks-delicacies.netlify.app/)
+*  Live Backend API Service: [https://teedee-k-s-delicacies.onrender.com](https://teedee-k-s-delicacies.onrender.com)
 
 ---
 
